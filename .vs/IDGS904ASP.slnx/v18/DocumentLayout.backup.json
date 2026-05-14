@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\soyji\\OneDrive\\Escritorio\\IDGS904ASP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{37E485A1-8807-45F7-89B4-57DEA738C470}|IDGS904ASP.csproj|c:\\users\\soyji\\onedrive\\escritorio\\idgs904asp\\views\\cinepolis\\cinepolis.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{37E485A1-8807-45F7-89B4-57DEA738C470}|IDGS904ASP.csproj|solutionrelative:views\\cinepolis\\cinepolis.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37E485A1-8807-45F7-89B4-57DEA738C470}|IDGS904ASP.csproj|c:\\users\\soyji\\onedrive\\escritorio\\idgs904asp\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37E485A1-8807-45F7-89B4-57DEA738C470}|IDGS904ASP.csproj|solutionrelative:app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37E485A1-8807-45F7-89B4-57DEA738C470}|IDGS904ASP.csproj|c:\\users\\soyji\\onedrive\\escritorio\\idgs904asp\\models\\cinepolis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37E485A1-8807-45F7-89B4-57DEA738C470}|IDGS904ASP.csproj|solutionrelative:models\\cinepolis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37E485A1-8807-45F7-89B4-57DEA738C470}|IDGS904ASP.csproj|c:\\users\\soyji\\onedrive\\escritorio\\idgs904asp\\controllers\\cinepoliscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37E485A1-8807-45F7-89B4-57DEA738C470}|IDGS904ASP.csproj|solutionrelative:controllers\\cinepoliscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\Users\\soyji\\OneDrive\\Escritorio\\IDGS904ASP\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Users\\soyji\\OneDrive\\Escritorio\\IDGS904ASP\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "App_Start\\RouteConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T02:16:40.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Cinepolis.cshtml",
+              "DocumentMoniker": "C:\\Users\\soyji\\OneDrive\\Escritorio\\IDGS904ASP\\Views\\Cinepolis\\Cinepolis.cshtml",
+              "RelativeDocumentMoniker": "Views\\Cinepolis\\Cinepolis.cshtml",
+              "ToolTip": "C:\\Users\\soyji\\OneDrive\\Escritorio\\IDGS904ASP\\Views\\Cinepolis\\Cinepolis.cshtml",
+              "RelativeToolTip": "Views\\Cinepolis\\Cinepolis.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-14T02:15:30.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CinepolisController.cs",
+              "DocumentMoniker": "C:\\Users\\soyji\\OneDrive\\Escritorio\\IDGS904ASP\\Controllers\\CinepolisController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CinepolisController.cs",
+              "ToolTip": "C:\\Users\\soyji\\OneDrive\\Escritorio\\IDGS904ASP\\Controllers\\CinepolisController.cs",
+              "RelativeToolTip": "Controllers\\CinepolisController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAiwDYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T02:13:53.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Cinepolis.cs",
+              "DocumentMoniker": "C:\\Users\\soyji\\OneDrive\\Escritorio\\IDGS904ASP\\Models\\Cinepolis.cs",
+              "RelativeDocumentMoniker": "Models\\Cinepolis.cs",
+              "ToolTip": "C:\\Users\\soyji\\OneDrive\\Escritorio\\IDGS904ASP\\Models\\Cinepolis.cs",
+              "RelativeToolTip": "Models\\Cinepolis.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T02:12:52.999Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
