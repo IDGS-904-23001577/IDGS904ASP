@@ -1,0 +1,71 @@
+﻿@model IDGS904ASP.Models.Cinepolis
+@{
+    ViewBag.Title = "Cinepolis";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6 col-lg-5">
+            <div class="card shadow border-0">
+                <div class="card-header bg-primary text-white text-center py-3">
+                    <h2 class="mb-0 fw-bold">Cinépolis</h2>
+                </div>
+                <div class="card-body p-4 bg-light">
+
+
+                    <form action="/Cinepolis/Index" method="post">
+                        <div class="mb-3">
+                            <label class="form-label fw-bold">Nombre:</label>
+                            <input type="text" name="Nombre" class="form-control" required />
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label fw-bold">Cantidad Compradores:</label>
+                            <input type="number" name="CantidadCompradores" class="form-control" min="1" required />
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label fw-bold">Cantidad Boletos:</label>
+                            <input type="number" name="CantidadBoletos" class="form-control" min="1" required />
+                        </div>
+
+                        <div class="mb-4">
+                            <label class="form-label fw-bold">Tarjeta CINECO:</label>
+                            <div class="d-flex gap-4">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="Tarjeta" value="true" id="tarjetaSi" />
+                                    <label class="form-check-label" for="tarjetaSi">Sí</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="Tarjeta" value="false" id="tarjetaNo" checked />
+                                    <label class="form-check-label" for="tarjetaNo">No</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="d-grid">
+                            <input type="submit" value="Procesar Compra" class="btn btn-warning btn-lg fw-bold shadow-sm" />
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+
+            @if (ViewBag.Total != null)
+            {
+                <div class="alert alert-success mt-4 shadow-sm border-start border-5 border-success">
+                    <h4 class="alert-heading">Cliente: @ViewBag.Nombre</h4>
+                    <h3 class="mb-0 fw-bold">Total a pagar: $@ViewBag.Total</h3>
+                </div>
+            }
+
+            @if (ViewBag.Error != null)
+            {
+                <div class="alert alert-danger mt-4 shadow-sm border-start border-5 border-danger">
+                    <h4 class="mb-0">@ViewBag.Error</h4>
+                </div>
+            }
+
+        </div>
+    </div>
+</div>
